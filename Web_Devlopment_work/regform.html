@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnnAztecs</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(images/bg3.jpg);
+        background-size: 1800px 1000px;
+        background-repeat: no-repeat;
+    
+    }
+    .left img{
+width: 80px;
+    }
+    .left {
+        display: inline-block;
+         /* border: 2px solid red;  */
+         width: 100px;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 18px;
+    }
+    .right {
+        position: absolute;
+        top: 30px;
+        right: 34px;
+        /* border: 2px solid red; */
+        display: inline-block;
+
+    }
+    
+    .container {
+        border: 10px solid rgb(10, 0, 0);
+        margin: 3px auto;
+        padding: 50px;
+        border-radius: 28px;
+        width: 30%;
+        height: 70%;
+    }
+    .container .btn{
+margin : 20px 160px ;
+width: 30%;
+height: 30%;
+    }
+    .btn{
+        background-color: rgb(81, 206, 43);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .btn:hover{
+background-color: rgb(19, 179, 243);
+    cursor: pointer;}
+
+    .container h1{
+        margin-bottom: 50px;
+        text-decoration: underline;
+        color:black;
+    }
+    .formgroup{
+        font-size: 20px;
+        font-weight: bolder;
+        color: black
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/sihreallogo.png" alt="">
+            Ann Aztecs
+        </div>
+        <div class="right">
+            <span><input type="text" name="myaadhar" placeholder="Enter your aadhar number"></span>
+        <button class="btn">Login</button>
+        <button class="btn">LogOut</button>
+        </div>
+    </header>
+<div class="container">
+    <h1>Anndaata Register Here!!</h1>
+    <form action="active.php"></form>
+    <label for="name"></label>
+    <div class="formgroup">
+    <div>Name:<input type="text" name="myname" id="name"></div><br>
+    <div>Aadhar Number:<input type="text" name="myaadhar"></div><br>
+    <div>Land Record Number/Khasra Number:<input type="text" name="myland"></div><br>
+    <div>Bank Account Number:<input type="text" name="mybank"></div><br>
+    <div>
+        Types of crops Grown:
+        <ul>
+            <li> <input type="text"></li>
+            <li> <input type="text"></li>
+            <li> <input type="text"></li>
+            <li> <input type="text"></li>
+        </ul>
+    </div>
+</div>
+    <div><button class="btn">Submit</button></div>
+</div>
+</body>
+</html>
