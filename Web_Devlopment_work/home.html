@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>home</title>
+    <style>
+         body{
+            font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        /* background-image: url(images/homebg1.jpg); */
+        background-size: 1800px 1000px;
+        background-repeat: no-repeat;
+    }
+    body::before{
+        content: "";
+    background: url(../images/homebg.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    }
+    .left img{
+width: 80px;
+    }
+    .left {
+        display: inline-block;
+         /* border: 2px solid red;  */
+         width: 100px;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 18px;
+    }
+    .mid {
+        /* border: 2px solid red; */
+        display: block;
+        margin: 40px auto;
+        width: 70%;
+        flex-direction: row;}
+
+        .navbar li {
+        display: inline-block;
+        font-size: 25px;}
+    
+     .navbar{
+        display: flex;
+        align-items: center;
+    position: sticky;
+    top: 0px;
+    }
+    
+    .navbar li a {
+        color: rgb(180, 24, 24);
+        text-decoration: none;
+        padding: 17px 25px;
+        font-weight: bold;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(25, 48, 255);
+    }
+.Bihar{
+    display: inline-block;
+    border: 2px solid rgb(71, 63, 62);
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    color:black;
+    /* background-color: rgb(143, 105, 78); */
+    font-size: 17px;
+}
+.Bihar h2{
+    text-align: center;
+    font-style: italic;
+}
+.table{
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.table h2{
+    text-align: center;
+
+}
+table{
+    border-collapse: collapse;
+}
+table,tr,td{
+    border: 2px solid black;
+}
+th,td{
+    padding: 5px;
+}
+th{
+    background-color: green;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: coral;
+}    
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/sihreallogo.png" alt="">
+            Ann Aztecs
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="regform.html">Farmer Registeration</a></li>
+                <li><a href="#">Government Login</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="Bihar">
+            <h2>About Bihar City</h2>
+            <p class="para1">Bihar is located in the eastern part of India. The state is surrounded by Nepal in the north, West Bengal in the east, Uttar Pradesh in the west, and Jharkhand in the south.Bihar is one of the strongest agricultural states. The percentage of population employed in agricultural production in Bihar is around 80 per cent, which is much higher than the national average. It is the fourth largest producer of vegetables and the eight largest producers of fruits in India. Food processing, dairy, sugar, manufacturing, and healthcare are some of the fast-growing industries in the state. The state has planned initiatives for the development of other sectors such as education and tourism and also provides incentives for information technology and renewable energy.</p>
+        </div>
+        <div class="table">
+            <h2>Land Utilization(Lakh Hectare)</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Area</th>
+                </tr>
+                <tr>
+                    <td>Total Geographical Area</td>
+                    <td>93.60</td>
+                </tr>
+                <tr>
+                    <td>Forests</td>
+                    <td>6.22</td>
+                </tr>
+                <tr>
+                    <td>Land put to non agricultural uses </td>
+                    <td>17.02</td>
+                </tr>
+                <tr>
+                    <td>Barren & uncultivated land </td>
+                    <td>4.32</td>
+                </tr>
+                <tr>
+                    <td>Permanent Pastures</td>
+                    <td>0.16</td>
+                </tr>
+                <tr>
+                    <td>Land under miscellaneous trees and groves </td>
+                    <td>2.44</td>
+                </tr>
+                <tr>
+                    <td>Other culturable wasteland</td>
+                    <td>0.85</td>
+                </tr>
+                <tr>
+                    <td>Current Fallow Land</td>
+                    <td>7.81</td>
+                </tr>
+                <tr>
+                    <td>Other Fallow Land</td>
+                    <td>1.21</td>
+                </tr>
+                <tr>
+                    <td>Net Sown area</td>
+                    <td>53.95</td>
+                </tr>
+                <tr>
+                    <td>Gross Cropped Area</td>
+                    <td>76.46</td>
+                </tr>
+            </table>
+        </div>
+    
+</body>
+</html>
