@@ -1,0 +1,31 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/bg3.jpg);
+    background-size: 1800px 1000px;
+    background-repeat: no-repeat;
+}
+.left img{
+width: 80px;
+}
+.left {
+    display: inline-block;
+     /* border: 2px solid red;  */
+     width: 90px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.right {
+    position: absolute;
+    top: 20px;
+    right: 34px;
+    /* border: 2px solid red; */
+    display: inline-block;
+
+}
+
+
+
+</style>
