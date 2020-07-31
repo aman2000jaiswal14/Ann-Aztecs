@@ -1,0 +1,51 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/bg3.jpg);
+    background-size: 1800px 1000px;
+    background-repeat: no-repeat;
+}
+.seedbook{
+    border: 8px solid rgb(10, 0, 0);
+    margin: 3px auto;
+    padding: 50px;
+    border-radius: 28px;
+    width: 30%;
+    height: 100%;
+}
+.bookbtn{
+    background-color: rgb(81, 206, 43);
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.bookbtn:hover{
+background-color: rgb(19, 179, 243);
+cursor: pointer;}
+
+        .seedbook h1{
+            margin-bottom: 50px;
+            text-decoration: underline;
+            color:black;
+        }
+        .seedform{
+            font-size: 20px;
+            font-weight: bolder;
+            color: black
+        }
+        .seedform input{
+            width: 60%;
+            box-sizing: border-box;
+            padding: 5px 20px;
+            margin: 8px;
+            border: 2px solid rgb(153, 98, 98);
+            border-radius: 4px;
+        }
+        .seedform input[type=text]:focus {
+            background-color: lightblue;
+          }
+          
