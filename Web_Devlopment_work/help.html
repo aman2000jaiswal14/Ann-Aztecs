@@ -19,10 +19,111 @@
               <div>Incident Location:<input type="text" placeholder="Enter Address"></div>
               <div>Aadhaar Number:<input type="text" placeholder="Enter Aadhar Number"></div>
               <p>Complaint Description:</p>
-              <div><textarea type="text" rows="6" cols="40"></textarea></div>        
-              <div><button type="submit" href="/" class="helpbtn">Submit</button></div> 
- 
+              <select id="test">
+                <option value="1">Flood</option>
+                <option value="2">Drought</option>
+                <option value="3"> Natural Fire</option>
+                <option value="4">Lightning-Strike</option>
+                <option value="5">Damage due to pests</option>
+              </select>
+              <p>Problem not mentioned in above list describe here</p>
+              <textarea name="texar" id="texar" cols="40" rows="5"></textarea>
+              <button type="submit" class="helpbtn">Submit</button>
           </div>
+          </form>
+          </div>
+          <div class="tab">
+              <h1>Helpline numbers for Customer Care </h1>
+              <table class="helptable">
+                  <tr>
+                      <th>Center Name</th>
+                      <th>Contact No. </th>
+                  </tr>
+                  <tr>
+                      <td>Araria Agriculture Center </td>
+                      <td>9765432109</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>Jamui Agriculture Center </td>
+                    <td>7765482109</td>
+                </tr>
+                
+                <tr>
+                    <td>Nalanda Agriculture Center </td>
+                    <td>8765432109</td>
+                </tr>
+                
+                <tr>
+                    <td>Rohtas Agriculture Center </td>
+                    <td>9765432109</td>
+                </tr>
+                
+                <tr>
+                    <td>Khagaria Agriculture Center </td>
+                    <td>7765432109</td>
+                </tr>
+                
+                <tr>
+                    <td>Gopalganj Agriculture Center </td>
+                    <td>9765432109</td>
+                </tr>
+                
+                <tr>
+                    <td>Sasaram Agriculture Center </td>
+                    <td>8765432109</td>
+                </tr>
+                
+                <tr>
+                    <td>Nawada Agriculture Center </td>
+                    <td>7765472109</td>
+                </tr>
+                
+                <tr>
+                    <td>Purnia Agriculture Center </td>
+                    <td>9765462109</td>
+                </tr>
+                
+                <tr>
+                    <td>Siwan Agriculture Center </td>
+                    <td>8765432108</td>
+                </tr>
+                <tr>
+                    <td>Supaul Agriculture Center </td>
+                    <td>8765432108</td>
+                </tr>
+                <tr>
+                    <td>Saran Agriculture Center </td>
+                    <td>8765432108</td>
+                </tr>
+                <tr>
+                    <td>Lakhisarai Agriculture Center </td>
+                    <td>8765432108</td>
+                </tr>
+                <tr>
+                    <td>Sitamarhi Agriculture Center </td>
+                    <td>8765432108</td>
+                </tr>
+                <tr>
+                    <td>Sheohar Agriculture Center </td>
+                    <td>8765432108</td>
+                </tr>
+                <tr>
+                    <td>Hajipur Agriculture Center </td>
+                    <td>8765432108</td>
+                </tr>
+                <tr>
+                    <td>Vaishali Agriculture Center </td>
+                    <td>8765432108</td>
+                </tr>
+              </table>
+          </div>
+          <script>
+              $(document).ready(function () {
+  $("#test").CreateMultiCheckBox({ width: '230px',
+             defaultText : 'Select Below', height:'250px' });
+});
+          </script>
           
 </body>
 </html>
