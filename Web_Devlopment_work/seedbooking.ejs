@@ -1,0 +1,72 @@
+<style>
+    body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./bg3.jpg);
+    background-size: 1800px 1000px;
+    background-repeat: no-repeat;
+}
+.seedbook{
+    border: 8px solid rgb(10, 0, 0);
+    margin: 3px auto;
+    padding: 50px;
+    border-radius: 28px;
+    width: 30%;
+    height: 100%;
+}
+.bookbtn{
+    background-color: rgb(81, 206, 43);
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.bookbtn:hover{
+background-color: rgb(19, 179, 243);
+cursor: pointer;}
+
+        .seedbook h1{
+            margin-bottom: 50px;
+            text-decoration: underline;
+            color:black;
+        }
+        .seedform{
+            font-size: 20px;
+            font-weight: bolder;
+            color: black
+        }
+        .seedform input{
+            width: 60%;
+            box-sizing: border-box;
+            padding: 5px 20px;
+            margin: 8px;
+            border: 2px solid rgb(153, 98, 98);
+            border-radius: 4px;
+        }
+        .seedform input[type=text]:focus {
+            background-color: lightblue;
+          }
+          
+</style>
+<%- include('partials/style') %>
+<%- include('partials/header') %>
+<body>
+    <div class="seedbook">
+        <h1>Seed Booking Form</h1>
+            <form action="/">
+            <div class="seedform">
+            <form action="/">
+            <div>FarmerName:<input type="text" placeholder="Enter Farmer Name" name="name" id="myname"></div>
+            <div>Farmer Id:<input type="text" placeholder="Enter Farmer id" name="id" id="myid"></div>
+            <div>Crop Name:<input type="text" placeholder="Enter crop name" name="crop" id="mycropname"></div>
+            <div>Address:<input type="text" placeholder="Enter Address" name="add" id="myaddress"></div>
+            <div>Aadhaar Number:<input type="text" id="myaadhaar" name="aadhar" placeholder="Enter Aadhaar number"></div>
+            <div><button class="bookbtn">Book</button></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

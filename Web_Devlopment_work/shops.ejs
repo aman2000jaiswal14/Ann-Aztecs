@@ -1,0 +1,25 @@
+<%- include('partials/style') %>
+<%- include('partials/header') %>
+<body background="./bg3.jpg">
+
+<h1 style="text-align: center;"><a href="/shops/new">Add New Shops</a></h1>
+<% shops.forEach(function(shop){ %>
+  <div class="container">
+    <div class="col-md-3 col-sm-6">
+        <div class="thumbnail" style="background-color: azure;">
+        <div class="caption">
+          <h3><%= shop.ShopName %></h3>
+        </div>
+        <div style="background-color:darkturquoise;">    
+        <p>
+          <h4><%= shop.Address %></h4> 
+        </p>  
+        <p>
+          <h4><%= shop.Contact_No %></h4> 
+        </p>  
+      </div> 
+      </div>    
+  </div>
+  </div>
+<% });%>
+<%- include('partials/footer') %>

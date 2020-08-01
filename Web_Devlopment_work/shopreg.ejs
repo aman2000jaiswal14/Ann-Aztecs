@@ -1,0 +1,14 @@
+<%- include('partials/style') %>
+<%- include('partials/header') %>
+    <div class="container">
+        <h1 style="text-align: center;">Shop Registration</h1>
+        <form action="/shops" method="POST">
+        <div class="formgroup">
+        <div>Name:<input type="text" name="ShopName" id="name"></div><br>
+        <div>Address:<input type="text" name="Address"></div><br>
+        <div>Contact:<input type="text" name="Contact"></div><br>
+        <input type="submit">
+        </div>
+    </form>
+    </div>
+    <%- include('partials/footer') %>

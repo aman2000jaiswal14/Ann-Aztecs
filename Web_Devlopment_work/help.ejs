@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/help.css">
+    <style>
+          
+*{
+    margin: 0px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+body{
+    background-image: url(./grievance.jpg);
+    background-repeat: no-repeat center center/cover;
+    background-size: 1800px 1000px;
+}
+.parahelp h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.parahelp p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    /* position: fixed; */
+}
+.testbox.helpbtn{
+margin : 20px 160px ;
+width: 30%;
+height: 30%;
+}
+.helpbtn{
+    background-color: rgb(81, 206, 43);
+    font-weight: bold;
+    font-size: 20px;
+    width: 140px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.helpbtn:hover{
+background-color: rgb(19, 179, 243);
+cursor: pointer;}
+
+
+.helpform{
+    border: 4px solid brown;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    margin: 3px auto;
+    padding: 30px 20px;
+    border-radius: 28px;
+    width: 30%;
+    height: 70%;
+}
+
+.helpform input{
+    width: 60%;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    margin: 8px;
+    border: 2px solid rgb(153, 98, 98);
+    border-radius: 4px;
+}
+.helpform input[type=text]:focus {
+    background-color: lightblue;
+  }
+.helpform textarea{
+    margin-top: 2px;
+}
+    </style>
+</head>
+<body style="background-color:lightcyan">
+    <div class="testbox">
+        <form action="/">
+            <div class="parahelp">
+          <h1>Complaint Form</h1>
+          <p>Please fill out the details about your loss.</p></div>
+          <div class="helpform">
+              <div>Date Of Complaint:<input type="date"></div>
+              <div>Farmer Id:<input type="text" placeholder="Enter Farmer Id"></div>
+              <div>Farmer Name:<input type="text" placeholder="Enter Farmer Name"></div>
+              <div>Incident Location:<input type="text" placeholder="Enter Address"></div>
+              <div>Aadhaar Number:<input type="text" placeholder="Enter Aadhar Number"></div>
+              <p>Complaint Description:</p>
+              <div><textarea type="text" rows="6" cols="40"></textarea></div>        
+              <div><button type="submit" href="/" class="helpbtn">Submit</button></div> 
+ 
+          </div>
+          
+</body>
+</html>

@@ -1,0 +1,18 @@
+<%- include('partials/style') %>
+<%- include('partials/header') %>
+<body style="background-image: url(./homebg.jpg);">
+        <div class="Bihar">
+            <h2>About Bihar State</h2>
+            <p class="para1">Bihar is located in the eastern part of India. The state is surrounded by Nepal in the north, West Bengal in the east, Uttar Pradesh in the west, and Jharkhand in the south.Bihar is one of the strongest agricultural states. The percentage of population employed in agricultural production in Bihar is around 80 per cent, which is much higher than the national average. It is the fourth largest producer of vegetables and the eight largest producers of fruits in India. Food processing, dairy, sugar, manufacturing, and healthcare are some of the fast-growing industries in the state. The state has planned initiatives for the development of other sectors such as education and tourism and also provides incentives for information technology and renewable energy.</p>
+        </div>
+        <div id="callme">
+            <h2>Need help Call here!!</h2>
+            <a href="tel:7651830284" id="callbtn"><img src="./phn.png" alt=""></a>
+        </div>
+        
+ 
+        <% if (message) {%>
+            <h4 style="text-align: center;"><%= message %></h4>
+         <%}%>     
+                    
+<%- include('partials/footer') %>
