@@ -1,0 +1,128 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+margin: 0px;
+padding: 0px;
+/* background-image: url(images/homebg1.jpg); */
+background-size: 1800px 1000px;
+background-repeat: no-repeat;
+}
+body::before{
+content: "";
+background: url(../images/homebg1.jpg) no-repeat center center/cover;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+position: absolute;
+z-index: -1;
+opacity: 0.4;
+}
+.left img{
+width: 80px;
+}
+.left {
+display: inline-block;
+ /* border: 2px solid red;  */
+ width: 100px;
+position: absolute;
+top: 20px;
+left: 10px;
+font-size: 18px;
+}
+.mid {
+/* border: 2px solid red; */
+display: block;
+margin: 40px 60px;
+width: 100%;
+flex-direction: row;
+}
+
+.navbar li {
+display: inline-block;
+font-size: 25px;}
+
+.navbar{
+display: flex;
+align-items: center;
+position: sticky;
+top: 0px;
+}
+
+.navbar li a {
+color: rgb(180, 24, 24);
+text-decoration: none;
+padding: 5px 10px;
+font-weight: bold;
+border: 0.6px solid grey;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+text-decoration: underline;
+color: rgb(25, 48, 255);
+}
+.Bihar{
+display: inline-block;
+border: 2px solid rgb(71, 63, 62);
+width: 800px;
+height: auto;
+left: 20%;
+margin-top: 20px;
+position: absolute;
+
+border-radius: 8px;
+color:black;
+/* background-color: rgb(143, 105, 78); */
+font-size: 17px;
+}
+.Bihar h2{
+text-align: center;
+font-style: italic;
+}  
+#callme{
+margin-top: 450px;
+margin-left: 40px;
+/* padding: 50px; */
+}
+#callbtn{
+width: 600px;
+padding: 10px 80px;
+font-size: 25px;
+text-decoration: none;
+color: #af2121;
+text-shadow: -1px -1px 2px #618926;
+background: -moz-linear-gradient(#98ba40, #a6c250 35%, #892678);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #98ba40),color-stop(.35, #a6c250),color-stop(1, #618926));
+border: 1px solid #618926;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+#callbtn:hover{
+text-shadow: -1px -1px 2px #465f97;
+background: -moz-linear-gradient(#245192, #1e3b73 75%, #12295d);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #245192),color-stop(.75, #1e3b73),color-stop(1, #12295d));
+border: 3px solid #0f2557;}
+#callme h2{
+margin-bottom: 20px;
+color:blueviolet;
+font-weight: bold;
+font-size: 35px;
+}
+#callbtn img{
+width: 30px;
+}
+.story {
+    /* position:relative; */
+    box-sizing: border-box;
+    border:5px solid rgb(54, 119, 172);
+    border-radius: 20px;
+    width: 600px;
+    position:absolute;
+    font-weight: bold;
+    color: rgb(255, 5, 25);
+    padding: 3px;
+    font-size: 20px;
+    bottom:0;
+    right:30px;
+}
