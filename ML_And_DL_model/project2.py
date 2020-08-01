@@ -130,7 +130,7 @@ def plot_bar(result):
     sns.barplot(a,x)
     plt.xlabel('Area in hectare')
     plt.subplot(2,1,2)
-    sns.barplot(a,p)
+    sns.barplot(p,x)
     plt.xlabel('Production in thousands metric tonnes')
     st.pyplot()
 
